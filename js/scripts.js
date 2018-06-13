@@ -11,6 +11,7 @@ function whosTurn() {
 }
 
 
+
 function Player(name) {
   this.name = name;
 
@@ -28,14 +29,26 @@ function Game() {
 }
 
 
+function isOver(){
+
+}
+var boardArray = [
+                  [0,0],[0,1],[0,2]
+                  [1,0],[1,1],[1,2]
+                  [2,0],[2,1],[2,2]
+                                  ];
+
 /*******************  FRONT END (USER INTERFACE) *********************/
 $(document).ready(function() {
   var gameBoard = new Board();
 
 $("#0-0").click(function(){
   $("#0-0").text(whosTurn());
+  boardArray [0] = whosTurn();
+  alert(boardArray [0]);
   counter++;
-  alert(counter);
+
+  //isOver();
 });
 
 $("#0-1").click(function(){
