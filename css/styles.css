@@ -1,13 +1,16 @@
 table{
   border: 5px solid black;
-  height: 400px;
-  width: 400px;
-  
+  height: 399px;
+  width: 399px;
+
 
 }
 td{
   border: 5px solid black;
   text-align: center;
+  height: 133px;
+  width: 133px;
+  font-size: 90px;
 }
 
 /*.container {
