@@ -55,8 +55,9 @@ $(document).ready(function() {
 $("#x-button").click(function() {
   player1 = "X";
   player2 = "O";
-  $("#player-choice").show();
-  $("#player-choice2").show();
+  $(".blah2").show();
+  // $("#player-choice").show();
+  // $("#player-choice2").show();
 });
 
 
@@ -64,8 +65,9 @@ $("#x-button").click(function() {
 $("#o-button").click(function() {
   player1 = "O";
   player2 = "X";
-  $("#other-choice").show();
-  $("#other-choice2").show();
+  $(".blah1").show();
+  // $("#other-choice").show();
+  // $("#other-choice2").show();
 });
 
 

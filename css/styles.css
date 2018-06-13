@@ -33,7 +33,7 @@ td{
 }
 
 
-#player-choice {
+/*#player-choice {
   display: none;
 }
 #other-choice {
@@ -43,5 +43,11 @@ td{
   display: none;
 }
 #other-choice2 {
+  display: none;
+}*/
+.blah1{
+  display: none;
+}
+.blah2{
   display: none;
 }
