@@ -31,3 +31,17 @@ td{
 #x-button, #o-button{
   width: 100px;
 }
+
+
+#player-choice {
+  display: none;
+}
+#other-choice {
+  display: none;
+}
+#player-choice2 {
+  display: none;
+}
+#other-choice2 {
+  display: none;
+}

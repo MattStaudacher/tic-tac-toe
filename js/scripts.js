@@ -40,9 +40,38 @@ var boardArray = [
                   [],[],[]
                           ];
 
+
+var player1;
+var player2;
+
 /*******************  FRONT END (USER INTERFACE) *********************/
 $(document).ready(function() {
   var gameBoard = new Board();
+
+
+
+
+
+$("#x-button").click(function() {
+  player1 = "X";
+  player2 = "O";
+  $("#player-choice").show();
+  $("#player-choice2").show();
+});
+
+
+
+$("#o-button").click(function() {
+  player1 = "O";
+  player2 = "X";
+  $("#other-choice").show();
+  $("#other-choice2").show();
+});
+
+
+
+
+
 
 
 
