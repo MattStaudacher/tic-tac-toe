@@ -1,0 +1,15 @@
+table{
+  border: 5px solid black;
+  height: 400px;
+  width: 400px;
+  
+
+}
+td{
+  border: 5px solid black;
+  text-align: center;
+}
+
+/*.container {
+  display: none;
+}*/
