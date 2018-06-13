@@ -1,8 +1,8 @@
+
 table{
   border: 5px solid black;
   height: 399px;
   width: 399px;
-
 
 }
 td{
@@ -16,3 +16,15 @@ td{
 /*.container {
   display: none;
 }*/
+
+#board, .player {
+  display: none;
+}
+
+.player{
+  font-size: 30px;
+}
+
+#x-button, #o-button{
+  width: 100px;
+}
