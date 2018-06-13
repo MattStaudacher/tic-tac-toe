@@ -33,12 +33,33 @@ function Game() {
 
 function isOver(){
 
+    //alert("fjkdlsafjl;j")
+  // if(boardArray[0] === "X" && boardArray[1] === "X" && boardArray[2] === "X"){
+  //   alert("WINNER");
+  // }
+  // if(boardArray[3] === "X" && boardArray[4] === "X" && boardArray[5] === "X"){
+  //   alert("WINNER");
+  // }
+  // if(boardArray[6] === "X" && boardArray[7] === "X" && boardArray[8] === "X"){
+  //   alert("WINNER");
+  // }
+  //
+  // if(boardArray[0] === "O" && boardArray[1] === "O" && boardArray[2] === "O"){
+  //   alert("WINNER");
+  // }
+  // if(boardArray[3] === "O" && boardArray[4] === "O" && boardArray[5] === "O"){
+  //   alert("WINNER");
+  // }
+  // if(boardArray[6] === "O" && boardArray[7] === "O" && boardArray[8] === "O"){
+  //   alert("WINNER");
+  // }
 }
 var boardArray = [
                   [],[],[],
                   [],[],[],
                   [],[],[]
                           ];
+
 
 
 var player1;
@@ -81,62 +102,62 @@ $("#0-0").click(function(){
   $("#0-0").text(whosTurn());  // fill user (visual) board with X or O
   boardArray [0] = whosTurn(); // fill array/board with X or O
   counter++; // add counter to make it odd or even to determine whosTurn using %2
-
-  //isOver();
+  isOver();
 });
 
 $("#0-1").click(function(){
   $("#0-1").text(whosTurn());
   boardArray [1] = whosTurn();
   counter++;
-
+  isOver();
 });
 
 $("#0-2").click(function(){
   $("#0-2").text(whosTurn());
   boardArray [2] = whosTurn();
   counter++;
-
+  isOver();
 });
 
 $("#1-0").click(function(){
   $("#1-0").text(whosTurn());
   boardArray [3] = whosTurn();
   counter++;
-
+  isOver();
 });
 
 $("#1-1").click(function(){
   $("#1-1").text(whosTurn());
   boardArray [4] = whosTurn();
   counter++;
-
+  isOver();
 });
 
 $("#1-2").click(function(){
   $("#1-2").text(whosTurn());
   boardArray [5] = whosTurn();
   counter++;
-
+  isOver();
 });
 
 $("#2-0").click(function(){
   $("#2-0").text(whosTurn());
   boardArray [6] = whosTurn();
   counter++;
-
+  isOver();
 });
 
 $("#2-1").click(function(){
   $("#2-1").text(whosTurn());
   boardArray [7] = whosTurn();
   counter++;
-
+  isOver();
 });
 
 $("#2-2").click(function(){
   $("#2-2").text(whosTurn());
   boardArray [8] = whosTurn();
   counter++;
+  isOver();
 });
 });
