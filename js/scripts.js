@@ -43,10 +43,10 @@ $(document).ready(function() {
   var gameBoard = new Board();
 
 $("#0-0").click(function(){
-  $("#0-0").text(whosTurn());
-  boardArray [0] = whosTurn();
+  $("#0-0").text(whosTurn());  // fill user (visual) board with X or O
+  boardArray [0,0] = whosTurn(); // fill array/board with X or O
   alert(boardArray [0]);
-  counter++;
+  counter++; // add counter to make it odd or even to determine whosTurn using %2
 
   //isOver();
 });
